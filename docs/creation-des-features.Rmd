@@ -85,7 +85,7 @@ for i in range(len(file_list)//n + 1):
                                                 np.concatenate([image_list, model_for_output.predict(x)], axis=1)],
                                                 axis=0)
 
-np.savetxt('path-to-save-data/train-features.csv', 
+np.savetxt('train-features.csv', 
            flatten_pool_features, 
            delimiter=',',
            fmt = '%s')

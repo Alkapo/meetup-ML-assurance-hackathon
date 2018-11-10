@@ -1,0 +1,11 @@
+tensorflow
+nltk
+scrapy
+gensim
+torch
+pytoune
+numpy
+scikit-learn
+beautifulsoup4
+spacy
+tqdm
